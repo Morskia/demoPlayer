@@ -1,0 +1,26 @@
+{
+    "name": "panique/mini3",
+    "description": "MINI3 - an extremely simple naked PHP application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+            "name": "Panique",
+            "email": "panique@firemail.de"
+        },
+        {
+            "name": "John Dias",
+            "email": "joaodias@noctus.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "delight-im/auth": "*",
+        "phpmailer/phpmailer": "v6.1.3",
+        "kunalvarma05/dropbox-php-sdk": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mini\\": "application/"
+        }
+    }
+}

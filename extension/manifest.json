@@ -1,0 +1,14 @@
+{
+  "name": "mr.TV",
+  "description": "Best multimedia chanel in Bulgaria",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "/mrtv.png"
+  },
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "/background.js"
+  }
+
+}
